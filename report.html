@@ -12951,7 +12951,7 @@ Fill in the missing code below so that the function will make this prediction.<b
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[50]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="n">vs</span><span class="o">.</span><span class="n">survival_stats</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">outcomes</span><span class="p">,</span> <span class="s1">&#39;Pclass&#39;</span> <span class="p">,</span> <span class="p">[</span><span class="s2">&quot;Sex == &#39;female&#39;&quot;</span><span class="p">,</span> <span class="s2">&quot;Pclass == 3&quot;</span><span class="p">,</span> <span class="s2">&quot;Parch == 0&quot;</span><span class="p">])</span>
@@ -13185,7 +13185,7 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">predictions_3</span><span class="p">(</span><span class="n">data</span><span class="p">):</span>
@@ -13236,7 +13236,7 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[42]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="k">print</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">outcomes</span><span class="p">,</span> <span class="n">predictions</span><span class="p">)</span>
@@ -13294,7 +13294,7 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer</strong>: I can think of many scenarios where supervised learning can be used.  One of them would be for media content creators.  In order to create new content, they should probably try to predict if that new content will have enough following to be successful. So given a certain platform, say HBO or Netflix which can be watched on many different mediums, I would look at the age groups of the viewers on that platform, wether they're male or female, the prefered way to watch (mobile vs. TV), their viewing history, etc..</p>
+<p><strong>Answer</strong>:  Let's assume that I am a wireless service provider.  Customers tend to change providers after a certain period such as at end of contract term.   The question is whether a free service upgrade to the higher data plan would convince the customer not to cancel the service. The plan is to look at customers who accepted the offer in the past versus those who did not.  The features I would use are Age (Younger people tend to use more data), Average data usage (low data users may not be interested in higher data plans), whether they watch videos on their device, whether they use video chatting services, Income and Education.</p>
 
 </div>
 </div>
